@@ -19,6 +19,7 @@ public class CustomerController {
 	
 	@GetMapping("/customers")
 	public ResponseEntity<List<Customer>> getAll(){
+		System.out.println("Here");
 		return new ResponseEntity<>(customerService.getAll(),HttpStatus.OK);
 	}
 	

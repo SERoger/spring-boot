@@ -6,7 +6,6 @@ import javax.security.auth.login.AccountNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.crow.bank_mis.entity.Account;
-import com.crow.bank_mis.entity.Customer;
 import com.crow.bank_mis.repository.AccountRepository;
 import com.crow.bank_mis.service.AccountService;
 import com.crow.bank_mis.service.CustomerService;
